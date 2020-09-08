@@ -4,7 +4,7 @@
     {
         public class Products
         {
-            private const string ProductsPath = "/products";
+            private const string ProductsPath = "/posts";
 
             public static string GetAllProducts => ProductsPath;
             public static string CreateProduct => ProductsPath;
