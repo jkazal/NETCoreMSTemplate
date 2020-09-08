@@ -1,6 +1,6 @@
 ﻿namespace Domain.Entities
 {
-    public class Post
+    public class Product
     {
     }
 }

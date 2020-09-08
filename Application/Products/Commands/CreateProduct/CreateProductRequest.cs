@@ -1,9 +1,9 @@
 ﻿using Application.Common.Mappings;
 using AutoMapper;
 
-namespace Application.Posts.Commands.CreatePost
+namespace Application.Products.Commands.CreateProduct
 {
-    public class CreatePostRequest : IMapFrom<CreatePostCommand>
+    public class CreateProductRequest : IMapFrom<CreateProductCommand>
     {
         public string Title { get; set; }
         public string Body { get; set; }
@@ -11,7 +11,7 @@ namespace Application.Posts.Commands.CreatePost
         
         public void Mapping(Profile profile)
         {
-            profile.CreateMap<CreatePostCommand, CreatePostRequest>();
+            profile.CreateMap<CreateProductCommand, CreateProductRequest>();
         }
     }
 }

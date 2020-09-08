@@ -2,14 +2,14 @@
 {
     public class Endpoints
     {
-        public class Posts
+        public class Products
         {
-            private const string PostsPath = "/posts";
+            private const string ProductsPath = "/products";
 
-            public static string GetAllPosts => PostsPath;
-            public static string CreatePost => PostsPath;
-            public static string GetPostById(int postId) => $"{PostsPath}/{postId}";
-            public static string GetCommentsForPost(int postId) => $"{PostsPath}/{postId}/comments";
+            public static string GetAllProducts => ProductsPath;
+            public static string CreateProduct => ProductsPath;
+            public static string GetProductById(int productId) => $"{ProductsPath}/{productId}";
+            public static string GetCommentsForProduct(int productId) => $"{ProductsPath}/{productId}/comments";
         }
     }
 }

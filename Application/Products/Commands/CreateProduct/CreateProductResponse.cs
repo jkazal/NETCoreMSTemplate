@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Application.Posts.Queries.GetAllPosts
+namespace Application.Products.Commands.CreateProduct
 {
-    public class GetAllPostsResponse
+    public class CreateProductResponse
     {
         [JsonPropertyName("id")]
         public int Id { get; set; }

@@ -1,5 +1,5 @@
 ﻿using System;
-using Application.Posts;
+using Application.Products;
 using Infrastructure.JsonPlaceholderApi;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,7 +16,7 @@ namespace Infrastructure
                 config.Timeout = TimeSpan.FromSeconds(30);
             });
 
-            services.AddTransient<IPostsApi, PostsApi>();
+            services.AddTransient<IProductsApi, ProductsApi>();
             
             return services;
         }

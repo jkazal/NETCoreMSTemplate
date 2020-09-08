@@ -1,9 +1,9 @@
 ﻿using Application.Common.Mappings;
 using AutoMapper;
 
-namespace Application.Posts.Queries.GetAllPosts
+namespace Application.Products.Queries.GetAllProducts
 {
-    public class GetAllPostsDto : IMapFrom<GetAllPostsResponse>
+    public class GetAllProductsDto : IMapFrom<GetAllProductsResponse>
     {
         public int UserId { get; set; }
         public int Id { get; set; }
@@ -12,7 +12,7 @@ namespace Application.Posts.Queries.GetAllPosts
 
         public void Mapping(Profile profile)
         {
-            profile.CreateMap<GetAllPostsResponse, GetAllPostsDto>();
+            profile.CreateMap<GetAllProductsResponse, GetAllProductsDto>();
         }
     }
 }

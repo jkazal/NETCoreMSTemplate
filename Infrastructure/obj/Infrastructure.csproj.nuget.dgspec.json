@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Application\\Application.csproj": {
+    "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Test\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj"
+              "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj": {
+    "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Test\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -140,14 +140,14 @@
         }
       }
     },
-    "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Test\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -168,8 +168,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Application\\Application.csproj": {
-                "projectPath": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Application\\Application.csproj"
+              "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Application\\Application.csproj"
               }
             }
           }

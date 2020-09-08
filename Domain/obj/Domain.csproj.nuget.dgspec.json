@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj": {
+    "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Test\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
