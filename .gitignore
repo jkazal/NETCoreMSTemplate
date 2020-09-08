@@ -34,4 +34,5 @@ msbuild.wrn
 # Idea
 .idea/
 
-*/obj/Debug/*
+*/obj/*
+*/bin/*
