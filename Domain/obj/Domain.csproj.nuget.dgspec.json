@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Faris\\RiderProjects\\CQRSForum\\Domain\\Domain.csproj": {}
+    "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Faris\\RiderProjects\\CQRSForum\\Domain\\Domain.csproj": {
+    "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Faris\\RiderProjects\\CQRSForum\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Faris\\RiderProjects\\CQRSForum\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Faris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Faris\\RiderProjects\\CQRSForum\\Domain\\obj\\",
+        "projectPath": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Test\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Faris\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Test\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -55,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

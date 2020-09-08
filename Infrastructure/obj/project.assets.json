@@ -1188,24 +1188,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Faris\\.nuget\\packages\\": {},
+    "C:\\Users\\Test\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Faris\\RiderProjects\\CQRSForum\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\Faris\\RiderProjects\\CQRSForum\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Faris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Faris\\RiderProjects\\CQRSForum\\Infrastructure\\obj\\",
+      "projectPath": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Test\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Faris\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Test\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -1217,8 +1220,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Faris\\RiderProjects\\CQRSForum\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Faris\\RiderProjects\\CQRSForum\\Application\\Application.csproj"
+            "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Application\\Application.csproj": {
+              "projectPath": "c:\\Users\\Test\\microservice\\cqrs-with-net-core-mediatr\\Application\\Application.csproj"
             }
           }
         }
@@ -1264,7 +1267,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
