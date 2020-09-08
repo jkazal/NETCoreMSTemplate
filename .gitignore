@@ -40,8 +40,14 @@ msbuild.wrn
 *.user
 _ReSharper.*/
 *.sdf
-bin/
-obj/
+Application/bin/
+Application/obj/
+Domain/bin/
+Domain/obj/
+Infrastructure/bin/
+Infrastructure/obj/
+Presentation/bin/
+Presentation/obj/
 Debug/
 Release/
 *.opensdf
