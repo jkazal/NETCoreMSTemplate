@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-using SearchDetail.Domain.Entities;
+using Domain.Entities;
 
 namespace Infrastructure.Persistence
 {
