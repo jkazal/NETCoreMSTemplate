@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Application.Products;
 using Application.Products.Commands.CreateProduct;
 using Application.Products.Queries.GetAllProducts;
+using Domain.Entities;
 using Infrastructure.Services;
 
 namespace Infrastructure.JsonPlaceholderApi
@@ -20,7 +21,7 @@ namespace Infrastructure.JsonPlaceholderApi
             _productsService = productsService;
         }
         
-        public async Task<IEnumerable<GetAllProductsResponse>> GetAllProducts()
+        public async Task<IEnumerable<Vsproduct>> GetAllProducts()
         {
             return await _productsService.GetAllProducts();
         }

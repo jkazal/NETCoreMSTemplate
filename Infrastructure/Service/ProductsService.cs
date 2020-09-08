@@ -17,9 +17,9 @@ namespace Infrastructure.Services
         {
             this._context = context;
         }
-        public async Task<IEnumerable<GetAllProductsResponse>> GetAllProducts()
+        public async Task<IEnumerable<Vsproduct>> GetAllProducts()
         {
-            return (IEnumerable<GetAllProductsResponse>) this._context.Vsproduct.ToList(); ;
+            return _context.Vsproduct.ToList();
         }
     }
 }
