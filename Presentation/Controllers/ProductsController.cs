@@ -12,7 +12,6 @@ namespace Presentation.Controllers
         public async Task<ActionResult<IEnumerable<GetAllProductsDto>>> GetAllProducts()
         {
             var response = await Mediator.Send(new GetAllProductsQuery());
-
             return Ok(response);
         }
         
@@ -20,7 +19,6 @@ namespace Presentation.Controllers
         public async Task<ActionResult<CreateProductDto>> CreateProduct(CreateProductCommand command)
         {
             var response = await Mediator.Send(command);
-
             return CreatedAtAction(nameof(CreateProduct), response);
         }
     }

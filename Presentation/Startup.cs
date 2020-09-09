@@ -27,7 +27,7 @@ namespace Presentation
 
             services.AddSwaggerGen(config =>
             {
-                config.SwaggerDoc("v1", new OpenApiInfo() {Title = "CQRS Forum", Version = "v1"});
+                config.SwaggerDoc("v1", new OpenApiInfo() {Title = "Microservice", Version = "v1"});
             });
             
             services.AddRouting(options =>
@@ -55,7 +55,7 @@ namespace Presentation
             
             app.UseSwagger();
 
-            app.UseSwaggerUI(config => config.SwaggerEndpoint("/swagger/v1/swagger.json", "CQRS Forum v1"));
+            app.UseSwaggerUI(config => config.SwaggerEndpoint("/swagger/v1/swagger.json", "Microservice v1"));
         }
     }
 }
